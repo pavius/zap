@@ -24,7 +24,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/pavius/zap/zapcore"
 
 	"go.uber.org/multierr"
 )

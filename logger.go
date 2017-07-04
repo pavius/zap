@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/pavius/zap/zapcore"
 )
 
 // A Logger provides fast, leveled, structured logging. All methods are safe for

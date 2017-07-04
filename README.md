@@ -4,7 +4,7 @@ Blazing fast, structured, leveled logging in Go.
 
 ## Installation
 
-`go get -u go.uber.org/zap`
+`go get -u github.com/pavius/zap`
 
 Note that zap only supports the two most recent minor versions of Go.
 
@@ -109,8 +109,8 @@ Released under the [MIT License](LICENSE.txt).
 benchmarking against slightly older versions of other libraries. Versions are
 pinned in zap's [glide.lock][] file. [↩](#anchor-versions)
 
-[doc-img]: https://godoc.org/go.uber.org/zap?status.svg
-[doc]: https://godoc.org/go.uber.org/zap
+[doc-img]: https://godoc.org/github.com/pavius/zap?status.svg
+[doc]: https://godoc.org/github.com/pavius/zap
 [ci-img]: https://travis-ci.org/uber-go/zap.svg?branch=master
 [ci]: https://travis-ci.org/uber-go/zap
 [cov-img]: https://codecov.io/gh/uber-go/zap/branch/master/graph/badge.svg

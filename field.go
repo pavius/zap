@@ -25,7 +25,7 @@ import (
 	"math"
 	"time"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/pavius/zap/zapcore"
 )
 
 // Skip constructs a no-op field.

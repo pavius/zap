@@ -31,7 +31,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"go.uber.org/multierr"
-	. "go.uber.org/zap/zapcore"
+	. "github.com/pavius/zap/zapcore"
 )
 
 type errTooManyUsers int

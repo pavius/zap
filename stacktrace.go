@@ -25,7 +25,7 @@ import (
 	"strings"
 	"sync"
 
-	"go.uber.org/zap/internal/bufferpool"
+	"github.com/pavius/zap/internal/bufferpool"
 )
 
 var (

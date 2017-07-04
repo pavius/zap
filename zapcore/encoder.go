@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"go.uber.org/zap/buffer"
+	"github.com/pavius/zap/buffer"
 )
 
 // DefaultLineEnding defines the default line ending when writing logs.

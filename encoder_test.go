@@ -23,7 +23,7 @@ package zap
 import (
 	"testing"
 
-	"go.uber.org/zap/zapcore"
+	"github.com/pavius/zap/zapcore"
 
 	"github.com/stretchr/testify/assert"
 )

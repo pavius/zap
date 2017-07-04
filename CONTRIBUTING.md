@@ -46,7 +46,7 @@ pull request.
 Start by creating a new branch for your changes:
 
 ```
-cd $GOPATH/src/go.uber.org/zap
+cd $GOPATH/src/github.com/pavius/zap
 git checkout master
 git fetch upstream
 git rebase upstream/master

@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest"
-	"go.uber.org/zap/zaptest/observer"
+	"github.com/pavius/zap/zapcore"
+	"github.com/pavius/zap/zaptest"
+	"github.com/pavius/zap/zaptest/observer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -103,7 +103,7 @@ func TestNewStdLog(t *testing.T) {
 		assert.Equal(t, "redirected", entry.Entry.Message, "Unexpected entry message.")
 		assert.Regexp(
 			t,
-			`go.uber.org/zap/global_test.go:\d+$`,
+			`github.com/pavius/zap/global_test.go:\d+$`,
 			entry.Entry.Caller.String(),
 			"Unexpected caller annotation.",
 		)

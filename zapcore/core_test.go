@@ -27,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	. "go.uber.org/zap/zapcore"
-	"go.uber.org/zap/zaptest"
+	. "github.com/pavius/zap/zapcore"
+	"github.com/pavius/zap/zaptest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
